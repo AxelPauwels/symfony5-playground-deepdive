@@ -28,6 +28,17 @@ Open the `.env` file and make any adjustments you need - specifically
 and *override* any configuration you need there (instead of changing
 `.env` directly).
 
+**run docker database**
+```docker-compose up -d```
+
+**Sequel Ace db connection**
+run
+```docker-compose ps```
+check the first port before the arrow, and use this in sequel pro
+user: root
+password:password
+database: main
+
 **Setup the Database**
 
 Again, make sure `.env` is setup for your computer. Then, create
